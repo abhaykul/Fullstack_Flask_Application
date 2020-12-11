@@ -11,6 +11,6 @@ services:
     environment:
       PYTHONUNBUFFERED: 'true'
     volumes:
-      - '.:/snakeeyes'
+      - '.:\snakeeyes'
     ports:
       - '8000:8000'
