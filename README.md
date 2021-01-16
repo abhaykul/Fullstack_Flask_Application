@@ -1,5 +1,5 @@
-# fullstack_flask_app
-
+## fullstack_flask_app
+# Project check-list
 - [x] Create basic structure
 - [x] Docker setup
 - [x] Flask app
