@@ -9,7 +9,7 @@
 - [x] Testing
 - [x] Add CLI
 - [x] Flask extension
-- [ ] Form creation
+- [x] Form creation
 - [ ] Admin Dashboard 
 - [ ] Logging and error handling
 - [ ] CLI additions
