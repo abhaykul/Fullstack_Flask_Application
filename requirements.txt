@@ -13,6 +13,7 @@ Click==7.1
 
 # Data and workers.
 redis==3.5.3
+# Windows not supported after celery 3.1.25
 celery==5.0.5
 
 # Forms.
