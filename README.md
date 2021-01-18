@@ -7,7 +7,7 @@
 - [x] Add Blueprints
 - [x] Add Jinja2 templates
 - [x] Testing
-- [ ] Add CLI
+- [x] Add CLI
 - [ ] Flask extension
 - [ ] Form creation
 - [ ] Admin Dashboard 
