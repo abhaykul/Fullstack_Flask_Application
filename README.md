@@ -8,7 +8,7 @@
 - [x] Add Jinja2 templates
 - [x] Testing
 - [x] Add CLI
-- [ ] Flask extension
+- [x] Flask extension
 - [ ] Form creation
 - [ ] Admin Dashboard 
 - [ ] Logging and error handling
