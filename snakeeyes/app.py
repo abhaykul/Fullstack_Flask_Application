@@ -25,6 +25,7 @@ def create_app(settings_override=None):
     return app
 
 
+# For debugging
 def extensions(app):
     """
     Register 0 or more extensions (mutates the app passed in).
