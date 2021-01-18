@@ -1,2 +1,3 @@
-# will have sensitive files
-HELLO = "Hello World!"
+MAIL_USERNAME = 'abhay10497@gmail.com'
+MAIL_PASSWORD = 'temp_password_1'
+SERVER_NAME = '192.168.99.100:8000'
