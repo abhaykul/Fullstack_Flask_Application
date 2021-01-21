@@ -1,5 +1,5 @@
-FROM python:2.7-slim
-MAINTAINER Nick Janetakis <nick.janetakis@gmail.com>
+FROM python:3.9-slim
+MAINTAINER Abhay Kulkarni <ak6277@rit.edu>
 
 RUN apt-get update && apt-get install -qq -y \
   build-essential libpq-dev --no-install-recommends
