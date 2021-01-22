@@ -1,15 +1,6 @@
 version: '2'
 
 services:
-  postgres:
-    image: 'postgres:9.5'
-    env_file:
-      - '.env'
-    volumes:
-      - 'postgres:/var/lib/postgresql/data'
-    ports:
-      - '5432:5432'
-
   redis:
     image: 'redis:3.0-alpine'
     command: redis-server --requirepass devpassword
@@ -25,10 +16,10 @@ services:
         --access-logfile -
         --reload
         "snakeeyes.app:create_app()"
-    env_file:
-      - '.env'
+    environment:
+      PYTHONUNBUFFERED: 'true'
     volumes:
-      - '.:/snakeeyes'
+      - '.:\snakeeyes'
     ports:
       - '8000:8000'
 
@@ -41,5 +32,4 @@ services:
       - '.:\snakeeyes'
 
 volumes:
-  postgres:
   redis:

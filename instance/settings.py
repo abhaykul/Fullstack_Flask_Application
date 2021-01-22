@@ -1,2 +1,2 @@
-MAIL_USERNAME = '<userId>@gmail.com'
-MAIL_PASSWORD = '<userPassword>'
+MAIL_USERNAME = 'temp@gmail.com'
+MAIL_PASSWORD = 'tempPassword'

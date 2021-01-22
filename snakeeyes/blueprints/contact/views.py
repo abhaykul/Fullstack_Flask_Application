@@ -5,7 +5,6 @@ from flask import (
     request,
     url_for,
     render_template)
-from flask_login import current_user
 
 from snakeeyes.blueprints.contact.forms import ContactForm
 
@@ -14,8 +13,7 @@ contact = Blueprint('contact', __name__, template_folder='templates')
 
 @contact.route('/contact', methods=['GET', 'POST'])
 def index():
-    # Pre-populate the email field if the user is signed in.
-    form = ContactForm(obj=current_user)
+    form = ContactForm()
 
     if form.validate_on_submit():
         # This prevents circular imports.

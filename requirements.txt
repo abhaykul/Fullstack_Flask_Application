@@ -12,10 +12,7 @@ flake8==3.8.4
 Click==7.1
 
 # Data and workers.
-psycopg2==2.8.6
-Flask-SQLAlchemy==2.4.4
 redis==3.5.3
-# Windows not supported after celery 3.1.25
 celery==5.0.5
 
 # Forms.
@@ -25,5 +22,3 @@ WTForms-Components==0.10.5
 # Extensions.
 flask-debugtoolbar==0.11.0
 Flask-Mail==0.9.1
-Flask-Login==0.5.0
-itsdangerous==1.1.0
