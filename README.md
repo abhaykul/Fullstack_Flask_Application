@@ -20,4 +20,33 @@
 - [ ] Add some functionality
 - [ ] Payments + Micro-transactions
 - [ ] DB migration
-- [ ] Done ? or add chat/support bot?
+
+## Run the code:
+
+- Setup Oracle VirtualBox v6.1
+- Start Docker Container [Docker: 20.10.2, Docker-compose: 1.27.4]
+- Go to the project directory
+- Type in terminal:
+  
+        docker-compose up --build
+
+- My filepath for the app.py folder is based on Windows filesystem
+
+    For Linux:
+
+    Make Changes in docker-compose.yml --> volumes - '.:/snakeeyes' for gunicorn and celery
+
+- For tests: Start another terminal (Docker)
+    
+        docker-compose exec website snakeeyes test
+        docker-compose exec website snakeeyes cov
+
+- The website will be on 'localhost:8000'
+- Stop the containers:
+
+        docker-compose stop
+
+- Cleanup the dangling/stopped containers
+
+        docker-compose rm if
+        docker rmi -f $(docker images -qf dangling=true)
