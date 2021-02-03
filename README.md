@@ -1,5 +1,8 @@
-## fullstack_flask_app
-# Project check-list
+# Design of the app
+
+<img src="design.jpg">
+
+## Project check-list
 - [x] Create basic structure
 - [x] Docker setup
 - [x] Flask app
