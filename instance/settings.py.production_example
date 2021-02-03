@@ -1,6 +1,6 @@
 DEBUG = False
 
-SERVER_NAME = 'google.com'
+SERVER_NAME = 'abhaykul.com'
 SECRET_KEY = 'generateastrong128chartoken'
 
 MAIL_USERNAME = 'you@realemailaccount.com'
